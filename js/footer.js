@@ -1,12 +1,12 @@
 
-// //版权图标动态显示
-// document.addEventListener('DOMContentLoaded', function() {
-//     const currentYear = new Date().getFullYear();
-//     const copyrightElement = document.querySelector('.copyright');
-//     if (copyrightElement) {
-//         copyrightElement.innerHTML = `©网站起始时间 - ${currentYear} <i class="fa-fw fas fa-star fa-beat" style="color: #ffff00;"></i> By 博主名`;
-//     }
-// });
+//版权图标动态显示
+document.addEventListener('DOMContentLoaded', function() {
+    const currentYear = new Date().getFullYear();
+    const copyrightElement = document.querySelector('.copyright');
+    if (copyrightElement) {
+        copyrightElement.innerHTML = `©2026 - ${currentYear} <i class="fa-fw fas fa-star fa-beat" style="color: #FFD700;"></i> By Solity`;
+    }
+});
 
 // 运行时间动态显示
 function showDateTime() {
@@ -28,10 +28,10 @@ function showDateTime() {
         const sec = remainingSecondsAfterHours % 60;
 
         timeDisplay.innerHTML = `
-            <span style="color:#ffff00">${days}</span> 天 
-            <span style="color:#ffff00">${hours}</span> 时 
-            <span style="color:#ffff00">${minutes}</span> 分 
-            <span style="color:#ffff00">${sec}</span> 秒
+            <span style="color:#F0FFF0">${days}</span> 天 
+            <span style="color:#F0FFF0">${hours}</span> 时 
+            <span style="color:#F0FFF0">${minutes}</span> 分 
+            <span style="color:#F0FFF0">${sec}</span> 秒
         `;
     } else {
         const years = Math.floor(seconds / oneYearInSeconds);
