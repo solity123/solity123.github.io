@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>张宇线性代数第四章基础及1000a-线性方程组的线性无关的解向量个数问题</title>
+      <link href="/2026/08/28/%E5%BC%A0%E5%AE%87%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%9F%BA%E7%A1%80%E5%8F%8A1000a-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E7%BA%BF%E6%80%A7%E6%97%A0%E5%85%B3%E7%9A%84%E8%A7%A3%E5%90%91%E9%87%8F%E4%B8%AA%E6%95%B0%E9%97%AE%E9%A2%98/"/>
+      <url>/2026/08/28/%E5%BC%A0%E5%AE%87%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%9F%BA%E7%A1%80%E5%8F%8A1000a-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E7%BA%BF%E6%80%A7%E6%97%A0%E5%85%B3%E7%9A%84%E8%A7%A3%E5%90%91%E9%87%8F%E4%B8%AA%E6%95%B0%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在学习完成线性代数第四讲后，我们将目光从基础的线代计算和繁杂的概念性质转向了线性方程组的解向量构成的空间性质这一核心概念上。从第三讲向量组开始，我们就不得不停下脚步，转而去思考此前我们略过的”风景“，解线性方程组及以此为延申而来的对解的向量空间的性质的研究。我想我确实应该抑制贪婪的胃口，去反刍此前囫囵个吞下的看似“线性无关”的知识。</p><h1 id="线性无关的解向量个数-题目"><a href="#线性无关的解向量个数-题目" class="headerlink" title="线性无关的解向量个数 题目"></a>线性无关的解向量个数 题目</h1><p>1000a：4.4 4.6 4.9<br>基础30讲课后题 4.6<br>这些题目利用不同的条件和公式，最终结果是对解的向量空间的基的个数的考察。<br>总之，下述推导，我需要深刻理解掌握：</p><ul><li>n阶方阵的满秩—线性无关—可逆<ul><li>满秩方阵经过初等行变换和初等列变换后的行最简矩阵必为单位矩阵</li><li>可逆的前提是矩阵为方阵</li></ul></li><li>可逆方阵的乘积依旧可逆<ul><li>由可逆的定义AB&#x3D;E B为A唯一逆矩阵，相当于对A初等列变换得到行最简矩阵，B可以看作若干可逆矩阵的乘积，每个可逆矩阵对应初等列变换，那么推广到一般BC&#x3D;E  E由C经过初等变换得到可得：C的秩&#x3D;E的秩。</li></ul></li></ul><h2 id="第四章精选题目的笔记"><a href="#第四章精选题目的笔记" class="headerlink" title="第四章精选题目的笔记"></a>第四章精选题目的笔记</h2><div class="row">    <embed src="/pdf/线性代数-第四章线性方程组题目_260828_191016.pdf" width="100%" height="550" type="application/pdf"></div><h1 id="debug"><a href="#debug" class="headerlink" title="debug"></a>debug</h1><p>利用hexo-pdf进行pdf展示时，source下创建的专门用于存储pdf的文件夹的pdf文件命名时中部不可存在空格，否则无法显示。<br>格式：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf /任意source下自定义文件夹/线性代数-第四章线性方程组题目_260828_191016.pdf  %&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 考研线性代数 </tag>
+            
+            <tag> 考研数学基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>张宇1000题a 14章13题-广义极坐标（换元法）</title>
       <link href="/2026/05/30/%E5%BC%A0%E5%AE%871000%E9%A2%98a%2014%E7%AB%A013%E9%A2%98-%E5%B9%BF%E4%B9%89%E6%9E%81%E5%9D%90%E6%A0%87%EF%BC%88%E6%8D%A2%E5%85%83%E6%B3%95%EF%BC%89/"/>
       <url>/2026/05/30/%E5%BC%A0%E5%AE%871000%E9%A2%98a%2014%E7%AB%A013%E9%A2%98-%E5%B9%BF%E4%B9%89%E6%9E%81%E5%9D%90%E6%A0%87%EF%BC%88%E6%8D%A2%E5%85%83%E6%B3%95%EF%BC%89/</url>
